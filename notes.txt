@@ -1,0 +1,12 @@
+Git is used to handle - code , txt , .gitignore files 
+DVC - is used to handle the different versions.
+
+*** Problem -
+SEE we have git to keep the changes of the code , files but dvc is 
+a tool to handle different versions of the data - outputs , artifacts , model performance corresponding data 
+
+** Solution - 
+dvc proovides a token for the particular data version corresponding to the code file 
+this token(mdb file ) is commit with the code file in git.
+so when we need, that particular data we will use the git for that corresponding token and ask dvc to provide from the storage.
+
